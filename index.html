@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gyanendra Dubey — ML Research Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    background:#ffffff;
+    color:#111;
+    font-family:'Source Serif 4',serif;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:100px 28px 60px 28px;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#ffffff;
+    border-bottom:1px solid #e5e5e5;
+    padding:14px 24px;
+    font-family:Inter,sans-serif;
+}
+
+nav a{
+    margin-right:22px;
+    color:#0056d2;
+    text-decoration:none;
+    font-weight:500;
+}
+
+h1,h2,h3{
+    font-family:Inter,sans-serif;
+    font-weight:600;
+    letter-spacing:-0.02em;
+}
+
+h1{font-size:3rem;margin-bottom:.2em}
+h2{font-size:1.9rem;margin-top:4rem}
+h3{font-size:1.25rem}
+
+p{font-size:1.05rem;line-height:1.65}
+
+.hero{
+    display:grid;
+    grid-template-columns:1.3fr .7fr;
+    gap:48px;
+    align-items:center;
+}
+
+.hero img{
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.section{margin-top:4rem}
+
+.project{margin-top:3.5rem}
+
+.tags{color:#666;font-size:.9rem;margin-top:.3rem}
+
+.meta{font-size:.95rem;color:#333;margin-top:.8rem}
+
+.timeline{
+    border-left:2px solid #ccc;
+    padding-left:24px;
+    margin-top:2rem;
+}
+
+.event{margin-bottom:2.5rem}
+
+footer{
+    margin:5rem 0 2rem;
+    font-family:Inter,sans-serif;
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#projects">Research & Projects</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+
+<div class="hero">
+<div>
+<h1>Gyanendra Dubey</h1>
+<h3>Machine Learning Research Engineer</h3>
+
+<p>
+I design and study machine learning systems under real-world constraints with emphasis on generative vision, controllable models, failure analysis, and large-scale experimentation.
+</p>
+
+<p>
+I’m always open to collaboration on research and challenging engineering problems.  
+If you’re building something ambitious or exploring new ideas, feel free to reach out.
+</p>
+
+<p>
+<a href="mailto:gyanendradubey2016@gmail.com">Email</a> · 
+<a href="https://github.com/dubeygyanendra">GitHub</a> · 
+<a href="https://www.linkedin.com/in/gyanendra-dubey-a069b9162/">LinkedIn</a>
+</p>
+</div>
+
+<div>
+<img src="https://avatars.githubusercontent.com/dubeygyanendra" alt="Gyanendra Dubey">
+</div>
+</div>
+
+<div class="section" id="projects">
+<h2>Selected Research & Engineering Work</h2>
+
+<div class="project">
+<h3>Production Generative Systems — Neuropixel.ai</h3>
+<div class="tags">Diffusion · Generative Vision · Production ML</div>
+
+<p class="meta"><b>Problem.</b> High-fidelity identity-preserving synthesis under strict production constraints.</p>
+<p class="meta"><b>Method.</b> Custom diffusion architectures, dataset design, large-scale controlled experimentation, failure-driven iteration.</p>
+<p class="meta"><b>Results.</b> 50K+ production images, improved visual fidelity, significant artifact reduction.</p>
+<p class="meta"><b>Failures & Analysis.</b> Diagnosed identity drift, texture instability, and hand synthesis failure modes; refined architectures accordingly.</p>
+<p class="meta"><b>Core Techniques.</b> Diffusion models, latent control, LoRA fine-tuning, multi-GPU training.</p>
+<p class="meta"><b>Systems & Tools.</b> PyTorch, CUDA, distributed training, dataset pipelines.</p>
+</div>
+
+<div class="project">
+<h3>Real-Time Machine Perception System — Manufapp</h3>
+<div class="tags">Computer Vision · Real-Time Systems · Production Deployment</div>
+
+<p class="meta"><b>Problem.</b> Extracting machine utilization from noisy live CCTV streams.</p>
+<p class="meta"><b>Method.</b> Classical CV pipelines transitioning to learning-based detection, custom RTSP ingestion and temporal modeling.</p>
+<p class="meta"><b>Results.</b> Deployed across 50+ cameras with real-time analytics and monitoring.</p>
+<p class="meta"><b>Failures & Analysis.</b> Identified robustness limits of rule-based methods under lighting and motion noise.</p>
+<p class="meta"><b>Core Techniques.</b> Object detection, temporal consistency modeling, noise-robust inference.</p>
+<p class="meta"><b>Systems & Tools.</b> Python, OpenCV, Flask, AWS, MongoDB.</p>
+</div>
+
+</div>
+
+<div class="section" id="experience">
+<h2>Experience & Education</h2>
+
+<div class="timeline">
+<div class="event"><b>2022–Present</b> — Deep Learning Research Engineer, Neuropixel.ai</div>
+<div class="event"><b>2021</b> — Computer Vision Research Intern, HyperVerge</div>
+<div class="event"><b>2020</b> — Computer Vision Intern, Manufapp</div>
+<div class="event"><b>2020</b> — Machine Learning Intern, Upscalepics.ai</div>
+<div class="event"><b>2022</b> — Dual Degree (B.Tech + M.Tech), IIT Kharagpur</div>
+</div>
+</div>
+
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:gyanendradubey2016@gmail.com">gyanendradubey2016@gmail.com</a></p>
+<p>GitHub: <a href="https://github.com/dubeygyanendra">github.com/dubeygyanendra</a></p>
+</div>
+
+<footer>© 2026 Gyanendra Dubey</footer>
+
+</div>
+</body>
+</html>
